@@ -1,0 +1,55 @@
+{
+  "repo": {
+    "timestamp": 1705791084000
+  },
+  "packages": {
+    "com.zaneschepke.wireguardautotunnel": {
+      "metadata": {
+        "categories": [
+          "Connectivity",
+          "Security"
+        ],
+        "license": "MIT",
+        "sourceCode": "https://github.com/zaneschepke/wgtunnel",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/1.png",
+                "sha256": "02d16c4cda738a338b758c35c6463f73e609a6e0146d388d3681279be2d8c399",
+                "size": 98259
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/2.png",
+                "sha256": "6176203adc687f074849bff38b0ad154989d68d2ba2a8c744fa45ed5c91b17dc",
+                "size": 65128
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/3.png",
+                "sha256": "0771ca2be56fe80d90cfa44b1d2f6bbdc6dd36975d015ffd69a760e92950f653",
+                "size": 123655
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/4.png",
+                "sha256": "89d257a6784cc9a719080cae7c5e9b001f5da1eec6b80dc7f4c5b87649b1e23c",
+                "size": 110265
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/5.png",
+                "sha256": "93df439323d9220831b3a0d5e5567cc340056dcfa2b01f75656f0e4fc5e11ccc",
+                "size": 32513
+              }
+            ]
+          }
+        },
+        "authorName": "zaneschepke",
+        "summary": {
+          "en-US": "An alternative Android client app for WireGuard VPN"
+        },
+        "description": {
+          "en-US": "An alternative VPN client app for WireGuard with additional features\n\n<b>Features</b>\n\n- Add tunnels via .conf file, zip, manual entry, or QR code\n- Auto connect to VPN based on Wi-Fi SSID, ethernet, or mobile data\n- Split tunneling by application with search\n- WireGuard support for kernel and userspace modes\n- Always-On VPN support\n- Export tunnels to zip\n- Quick tile support for VPN toggling\n- Static shortcuts support for primary tunnel for automation integration\n- Intent automation support for all tunnels\n- Automatic service restart after reboot\n- Battery preservation measures\n"
+        }
+      }
+    }
+  }
+}
