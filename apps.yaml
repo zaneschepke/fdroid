@@ -1,4 +1,4 @@
-notality:
+wgtunnel:
   git: https://github.com/zaneschepke/wgtunnel
   name: "WG Tunnel"
   description: |
