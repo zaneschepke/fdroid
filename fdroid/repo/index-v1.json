@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1705791084000,
+    "timestamp": 1705792455000,
     "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
@@ -25,9 +25,9 @@
       "name": "WG Tunnel",
       "sourceCode": "https://github.com/zaneschepke/wgtunnel",
       "summary": "An alternative Android client app for WireGuard VPN",
-      "added": 1705791075000,
+      "added": 1705792447000,
       "packageName": "com.zaneschepke.wireguardautotunnel",
-      "lastUpdated": 1705791079000,
+      "lastUpdated": 1705792451000,
       "localized": {
         "en-US": {
           "phoneScreenshots": [
@@ -45,7 +45,7 @@
   "packages": {
     "com.zaneschepke.wireguardautotunnel": [
       {
-        "added": 1705791079000,
+        "added": 1705792451000,
         "apkName": "wgtunnel_3.3.4.apk",
         "hash": "06176cbcf50bf4142ef9d1d3014f06f215aa5bbdba0701d3ffd07243edd7a1b8",
         "hashType": "sha256",
@@ -151,7 +151,7 @@
         "versionName": "3.3.4"
       },
       {
-        "added": 1705791079000,
+        "added": 1705792450000,
         "apkName": "wgtunnel_3.3.3.apk",
         "hash": "4ae485c8ebc3f3eb84840a8f92bd3d98510722adafa58354cfbc65aecfb504c6",
         "hashType": "sha256",
@@ -257,7 +257,7 @@
         "versionName": "3.3.3"
       },
       {
-        "added": 1705791078000,
+        "added": 1705792450000,
         "apkName": "wgtunnel_3.3.2.apk",
         "hash": "504fad08c9d142fa0449e6929603ccc26383745d21bb67a93b6c46b149a1907f",
         "hashType": "sha256",
@@ -359,7 +359,7 @@
         "versionName": "3.3.2"
       },
       {
-        "added": 1705791078000,
+        "added": 1705792450000,
         "apkName": "wgtunnel_3.3.1.apk",
         "hash": "8bf981ecbb4f3ea8684d71ecccd56269af5a9b8edfebf168527da775526d70ed",
         "hashType": "sha256",
@@ -461,7 +461,7 @@
         "versionName": "3.3.1"
       },
       {
-        "added": 1705791078000,
+        "added": 1705792449000,
         "apkName": "wgtunnel_3.3.0.apk",
         "hash": "78f5abf5dd5be0dbd72761a718a6ef170b1106307864ab86bec2a5500c3f46e6",
         "hashType": "sha256",
@@ -563,7 +563,7 @@
         "versionName": "3.3.0"
       },
       {
-        "added": 1705791077000,
+        "added": 1705792449000,
         "apkName": "wgtunnel_3.2.5.apk",
         "hash": "ea6628c897033d01bf33e09b68942d8e96b4b6b18122496d1c3ae54e228fc99c",
         "hashType": "sha256",
@@ -665,7 +665,7 @@
         "versionName": "3.2.5"
       },
       {
-        "added": 1705791077000,
+        "added": 1705792448000,
         "apkName": "wgtunnel_3.2.4.apk",
         "hash": "fe802fcb5edf14271300c8afb45c81565a0a9c53dbbcf394f868c0289564bdf4",
         "hashType": "sha256",
@@ -771,7 +771,7 @@
         "versionName": "3.2.4"
       },
       {
-        "added": 1705791077000,
+        "added": 1705792448000,
         "apkName": "wgtunnel_3.2.3.apk",
         "hash": "2d5d925e31d96bcd88e176f82f426b9358d5f2f0b434c1d1a315dc0035164570",
         "hashType": "sha256",
@@ -869,7 +869,7 @@
         "versionName": "3.2.3"
       },
       {
-        "added": 1705791076000,
+        "added": 1705792448000,
         "apkName": "wgtunnel_3.2.2.apk",
         "hash": "2dcbb065faf2924bbbf8470279e6a58395a9781288db60fc6854cb733c0c379b",
         "hashType": "sha256",
@@ -967,7 +967,7 @@
         "versionName": "3.2.2"
       },
       {
-        "added": 1705791076000,
+        "added": 1705792447000,
         "apkName": "wgtunnel_3.2.1.apk",
         "hash": "d34b50ad2512966726b73cc024316c53b876d3486ec5e86953fb72d2bd0bdc2c",
         "hashType": "sha256",
@@ -1065,7 +1065,7 @@
         "versionName": "3.2.1"
       },
       {
-        "added": 1705791075000,
+        "added": 1705792447000,
         "apkName": "wgtunnel_3.2.0.apk",
         "hash": "3425e9ddf4ba00273eab5cee815180f59cb74e4f4ecf0ae1dc88ace7d84627ac",
         "hashType": "sha256",
