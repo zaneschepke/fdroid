@@ -1,0 +1,7 @@
+What's new:
+- Fix stop tunnel regression
+- Add logs obfuscation
+- Add hide FAB on scroll
+- Add Turkish localization
+SHA256 fingerprint:
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
