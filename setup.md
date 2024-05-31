@@ -120,3 +120,11 @@ Now add it to your repo URL (add a `?fingerprint=`, then your key):
     https://raw.githubusercontent.com/xarantolus/fdroid/main/fdroid/repo?fingerprint=080898AE4309AECEB58915E43A4B7C4A3E2CDA40C91738E2C02F58339AB2FBD7
 
 You should of course replace the username in the URL. This is the URL your users should add to the F-Droid client. You can also generate a QR code for this URL.
+
+### Icons
+
+For the repository store icon (if you would like it to not be the auto generated QR), make sure to add the `icon.png` (assuming this has not been changed to a custom filename in the config.yml) file to the root of the `fdroid` folder as well as to the `fdroid/repo/icons` folder. It must be in both places to bypass a bug in the fdroid-server code. 
+
+For app icons, metascoop will not automatically get app icons from your repository. App icons must be manually added (both `icon.png` and `featureGraphic.png`) to the following folder `/fdroid/repo/<your_app_package_name>`
+
+
