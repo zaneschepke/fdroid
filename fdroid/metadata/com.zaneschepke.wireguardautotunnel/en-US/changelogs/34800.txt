@@ -5,4 +5,4 @@ What's new:
 - Fixes auto tunnel tile bug
 
 SHA256 fingerprint:
-```ebf4401eb9c2298ac1a996d795fca1961be9b534af3f0f04a54ba94b7ec70b94```
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
