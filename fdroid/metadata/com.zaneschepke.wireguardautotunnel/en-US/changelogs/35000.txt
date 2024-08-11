@@ -1,0 +1,9 @@
+What's new:
+- Improve auto tunnel reliability
+- Add support for light/dark/dynamic theming
+- Add support for pre/post up/down scripts
+- Remove tunnel persistent notification
+- Various other fixes and improvements
+
+SHA256 fingerprint:
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
