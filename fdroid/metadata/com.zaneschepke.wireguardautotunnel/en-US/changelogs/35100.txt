@@ -1,0 +1,8 @@
+What's new:
+- Fixes for tunnels not launching from background
+- Add support for restart services after update
+- UI animation speed improvements
+- Other optimizations
+
+SHA256 fingerprint:
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
