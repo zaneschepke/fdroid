@@ -1,0 +1,9 @@
+What's new:
+- Rooted devices now get wifi name without location
+- Logs screen scroll and sharing improvements
+- Tunnel import bug fixes for AndroidTV 14
+- Tunnel statistics UI enhancements
+- Other bug fixes and improvements
+
+SHA256 fingerprint:
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
