@@ -14,17 +14,17 @@
       }
     },
     "address": "https://raw.githubusercontent.com/zaneschepke/fdroid/main/fdroid/repo",
-    "timestamp": 1729575135000
+    "timestamp": 1731105953000
   },
   "packages": {
     "com.zaneschepke.wireguardautotunnel": {
       "metadata": {
-        "added": 1729575115000,
+        "added": 1731105933000,
         "categories": [
           "Connectivity",
           "Security"
         ],
-        "lastUpdated": 1729575129000,
+        "lastUpdated": 1731105947000,
         "license": "MIT",
         "sourceCode": "https://github.com/zaneschepke/wgtunnel",
         "featureGraphic": {
@@ -85,8 +85,91 @@
         "preferredSigner": "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
       },
       "versions": {
+        "0b749be52a3522b91dd608fb1237bd0478b9f7c0f2cf0fdd2f1d43378089b6d6": {
+          "added": 1731105947000,
+          "file": {
+            "name": "/wgtunnel_3.6.0.apk",
+            "sha256": "0b749be52a3522b91dd608fb1237bd0478b9f7c0f2cf0fdd2f1d43378089b6d6",
+            "size": 28609148
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.6.0",
+            "versionCode": 36000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.zaneschepke.wireguardautotunnel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              }
+            ]
+          }
+        },
         "61ac249f796496dced65e6355acf8deb00f97e12c66ecb0af0b7b1186afd71a9": {
-          "added": 1729575129000,
+          "added": 1731105946000,
           "file": {
             "name": "/wgtunnel_3.5.4.apk",
             "sha256": "61ac249f796496dced65e6355acf8deb00f97e12c66ecb0af0b7b1186afd71a9",
@@ -177,7 +260,7 @@
           }
         },
         "f09316002d16cada21a83520fe9a5471b8d304509590d0a9c6db1b0b2446f614": {
-          "added": 1729575129000,
+          "added": 1731105946000,
           "file": {
             "name": "/wgtunnel_3.5.3.apk",
             "sha256": "f09316002d16cada21a83520fe9a5471b8d304509590d0a9c6db1b0b2446f614",
@@ -269,7 +352,7 @@
           }
         },
         "b53111799b0d535922b9f5c7ac2449f269eaf8e08d79e3f5328c17ca8d6b3e8b": {
-          "added": 1729575128000,
+          "added": 1731105945000,
           "file": {
             "name": "/wgtunnel_3.5.2.apk",
             "sha256": "b53111799b0d535922b9f5c7ac2449f269eaf8e08d79e3f5328c17ca8d6b3e8b",
@@ -361,7 +444,7 @@
           }
         },
         "a0afb7803bf6bca2661de8528c35257bb0f0a7e5b72bd8bbe9c5aa8a75e70c8f": {
-          "added": 1729575127000,
+          "added": 1731105944000,
           "file": {
             "name": "/wgtunnel_3.5.1.apk",
             "sha256": "a0afb7803bf6bca2661de8528c35257bb0f0a7e5b72bd8bbe9c5aa8a75e70c8f",
@@ -453,7 +536,7 @@
           }
         },
         "2fc6c080339de1a7a95efdf968e8816a6eaa792e947ace39079d256b6b20c8b2": {
-          "added": 1729575127000,
+          "added": 1731105944000,
           "file": {
             "name": "/wgtunnel_3.5.0.apk",
             "sha256": "2fc6c080339de1a7a95efdf968e8816a6eaa792e947ace39079d256b6b20c8b2",
@@ -545,7 +628,7 @@
           }
         },
         "60e098645f4ab8041c26014bfb3ccb808b8206b9313cfa38f90bd92dbb77fc45": {
-          "added": 1729575126000,
+          "added": 1731105943000,
           "file": {
             "name": "/wgtunnel_3.4.8.apk",
             "sha256": "60e098645f4ab8041c26014bfb3ccb808b8206b9313cfa38f90bd92dbb77fc45",
@@ -637,7 +720,7 @@
           }
         },
         "7d9054ec65db1ef63d7f149788823103dc0a5e27de4d321ae7e38b26ffe18bff": {
-          "added": 1729575125000,
+          "added": 1731105942000,
           "file": {
             "name": "/wgtunnel_3.4.7.apk",
             "sha256": "7d9054ec65db1ef63d7f149788823103dc0a5e27de4d321ae7e38b26ffe18bff",
@@ -729,7 +812,7 @@
           }
         },
         "8bfbc2499c1f2a34e37d0f0d9c5845353aa55c34197e01966f4fcb6c5bd1852a": {
-          "added": 1729575125000,
+          "added": 1731105942000,
           "file": {
             "name": "/wgtunnel_3.4.6.apk",
             "sha256": "8bfbc2499c1f2a34e37d0f0d9c5845353aa55c34197e01966f4fcb6c5bd1852a",
@@ -821,7 +904,7 @@
           }
         },
         "70da3bc6293a5f8a1b151e9c82f926d1e4ac3a9352cfff3b33a9923fc1d04be7": {
-          "added": 1729575124000,
+          "added": 1731105941000,
           "file": {
             "name": "/wgtunnel_3.4.5.apk",
             "sha256": "70da3bc6293a5f8a1b151e9c82f926d1e4ac3a9352cfff3b33a9923fc1d04be7",
@@ -913,7 +996,7 @@
           }
         },
         "e90533bff109b8540e8601517a283df43faab19ab4f0a53e894bab435d0dc589": {
-          "added": 1729575123000,
+          "added": 1731105941000,
           "file": {
             "name": "/wgtunnel_3.4.4.apk",
             "sha256": "e90533bff109b8540e8601517a283df43faab19ab4f0a53e894bab435d0dc589",
@@ -1005,7 +1088,7 @@
           }
         },
         "57815deb27f0537a70829cd2c7c2fb1aed9a9de061ccb354bad09f5c9b52e709": {
-          "added": 1729575123000,
+          "added": 1731105940000,
           "file": {
             "name": "/wgtunnel_3.4.3.apk",
             "sha256": "57815deb27f0537a70829cd2c7c2fb1aed9a9de061ccb354bad09f5c9b52e709",
@@ -1097,7 +1180,7 @@
           }
         },
         "88c619efb121573ece5bdf72e914470289d4f7f646197f22f67c6d8eb5ce0a39": {
-          "added": 1729575122000,
+          "added": 1731105939000,
           "file": {
             "name": "/wgtunnel_3.4.2.apk",
             "sha256": "88c619efb121573ece5bdf72e914470289d4f7f646197f22f67c6d8eb5ce0a39",
@@ -1189,7 +1272,7 @@
           }
         },
         "79efd182e2c246bbfa6ac48b52cad89496103c53d562b4843127ef48df6d8629": {
-          "added": 1729575122000,
+          "added": 1731105939000,
           "file": {
             "name": "/wgtunnel_3.4.1.apk",
             "sha256": "79efd182e2c246bbfa6ac48b52cad89496103c53d562b4843127ef48df6d8629",
@@ -1281,7 +1364,7 @@
           }
         },
         "d9068f2cba6be3c1e7d79c5d862f596d188b0e2aee80f574311494c9c05f5d29": {
-          "added": 1729575121000,
+          "added": 1731105938000,
           "file": {
             "name": "/wgtunnel_3.4.0.apk",
             "sha256": "d9068f2cba6be3c1e7d79c5d862f596d188b0e2aee80f574311494c9c05f5d29",
@@ -1373,7 +1456,7 @@
           }
         },
         "ecfe6144eb638aed280c9976268fd26653efa219d4c5551d3bdd78ccfef98c0d": {
-          "added": 1729575121000,
+          "added": 1731105938000,
           "file": {
             "name": "/wgtunnel_3.3.9.apk",
             "sha256": "ecfe6144eb638aed280c9976268fd26653efa219d4c5551d3bdd78ccfef98c0d",
@@ -1465,7 +1548,7 @@
           }
         },
         "0c9476a113da5ce1bf46e9ec95529d2caa1b575337a848a3523de709dedd1e64": {
-          "added": 1729575120000,
+          "added": 1731105938000,
           "file": {
             "name": "/wgtunnel_3.3.8.apk",
             "sha256": "0c9476a113da5ce1bf46e9ec95529d2caa1b575337a848a3523de709dedd1e64",
@@ -1560,7 +1643,7 @@
           }
         },
         "df72dab1b930fee51f9dc4018ec3682279def740b5b299e5cbeb24adc163a578": {
-          "added": 1729575120000,
+          "added": 1731105937000,
           "file": {
             "name": "/wgtunnel_3.3.7.apk",
             "sha256": "df72dab1b930fee51f9dc4018ec3682279def740b5b299e5cbeb24adc163a578",
@@ -1655,7 +1738,7 @@
           }
         },
         "84dd8ee2ad4621dd0d6c5bcfe521705466bb7e8f553c0b98a8861f534ea7c2fc": {
-          "added": 1729575120000,
+          "added": 1731105937000,
           "file": {
             "name": "/wgtunnel_3.3.6.apk",
             "sha256": "84dd8ee2ad4621dd0d6c5bcfe521705466bb7e8f553c0b98a8861f534ea7c2fc",
@@ -1750,7 +1833,7 @@
           }
         },
         "6b2f42d160b64782821592b6e3d0eb6fe0275a7c2a300d83d2a53bb77295189f": {
-          "added": 1729575119000,
+          "added": 1731105937000,
           "file": {
             "name": "/wgtunnel_3.3.5.apk",
             "sha256": "6b2f42d160b64782821592b6e3d0eb6fe0275a7c2a300d83d2a53bb77295189f",
@@ -1845,7 +1928,7 @@
           }
         },
         "06176cbcf50bf4142ef9d1d3014f06f215aa5bbdba0701d3ffd07243edd7a1b8": {
-          "added": 1729575119000,
+          "added": 1731105936000,
           "file": {
             "name": "/wgtunnel_3.3.4.apk",
             "sha256": "06176cbcf50bf4142ef9d1d3014f06f215aa5bbdba0701d3ffd07243edd7a1b8",
@@ -1940,7 +2023,7 @@
           }
         },
         "4ae485c8ebc3f3eb84840a8f92bd3d98510722adafa58354cfbc65aecfb504c6": {
-          "added": 1729575118000,
+          "added": 1731105936000,
           "file": {
             "name": "/wgtunnel_3.3.3.apk",
             "sha256": "4ae485c8ebc3f3eb84840a8f92bd3d98510722adafa58354cfbc65aecfb504c6",
@@ -2035,7 +2118,7 @@
           }
         },
         "504fad08c9d142fa0449e6929603ccc26383745d21bb67a93b6c46b149a1907f": {
-          "added": 1729575118000,
+          "added": 1731105936000,
           "file": {
             "name": "/wgtunnel_3.3.2.apk",
             "sha256": "504fad08c9d142fa0449e6929603ccc26383745d21bb67a93b6c46b149a1907f",
@@ -2127,7 +2210,7 @@
           }
         },
         "8bf981ecbb4f3ea8684d71ecccd56269af5a9b8edfebf168527da775526d70ed": {
-          "added": 1729575118000,
+          "added": 1731105935000,
           "file": {
             "name": "/wgtunnel_3.3.1.apk",
             "sha256": "8bf981ecbb4f3ea8684d71ecccd56269af5a9b8edfebf168527da775526d70ed",
@@ -2219,7 +2302,7 @@
           }
         },
         "78f5abf5dd5be0dbd72761a718a6ef170b1106307864ab86bec2a5500c3f46e6": {
-          "added": 1729575117000,
+          "added": 1731105935000,
           "file": {
             "name": "/wgtunnel_3.3.0.apk",
             "sha256": "78f5abf5dd5be0dbd72761a718a6ef170b1106307864ab86bec2a5500c3f46e6",
@@ -2311,7 +2394,7 @@
           }
         },
         "ea6628c897033d01bf33e09b68942d8e96b4b6b18122496d1c3ae54e228fc99c": {
-          "added": 1729575117000,
+          "added": 1731105935000,
           "file": {
             "name": "/wgtunnel_3.2.5.apk",
             "sha256": "ea6628c897033d01bf33e09b68942d8e96b4b6b18122496d1c3ae54e228fc99c",
@@ -2403,7 +2486,7 @@
           }
         },
         "fe802fcb5edf14271300c8afb45c81565a0a9c53dbbcf394f868c0289564bdf4": {
-          "added": 1729575117000,
+          "added": 1731105934000,
           "file": {
             "name": "/wgtunnel_3.2.4.apk",
             "sha256": "fe802fcb5edf14271300c8afb45c81565a0a9c53dbbcf394f868c0289564bdf4",
@@ -2498,7 +2581,7 @@
           }
         },
         "2d5d925e31d96bcd88e176f82f426b9358d5f2f0b434c1d1a315dc0035164570": {
-          "added": 1729575116000,
+          "added": 1731105934000,
           "file": {
             "name": "/wgtunnel_3.2.3.apk",
             "sha256": "2d5d925e31d96bcd88e176f82f426b9358d5f2f0b434c1d1a315dc0035164570",
@@ -2587,7 +2670,7 @@
           }
         },
         "2dcbb065faf2924bbbf8470279e6a58395a9781288db60fc6854cb733c0c379b": {
-          "added": 1729575116000,
+          "added": 1731105934000,
           "file": {
             "name": "/wgtunnel_3.2.2.apk",
             "sha256": "2dcbb065faf2924bbbf8470279e6a58395a9781288db60fc6854cb733c0c379b",
@@ -2676,7 +2759,7 @@
           }
         },
         "d34b50ad2512966726b73cc024316c53b876d3486ec5e86953fb72d2bd0bdc2c": {
-          "added": 1729575116000,
+          "added": 1731105933000,
           "file": {
             "name": "/wgtunnel_3.2.1.apk",
             "sha256": "d34b50ad2512966726b73cc024316c53b876d3486ec5e86953fb72d2bd0bdc2c",
@@ -2765,7 +2848,7 @@
           }
         },
         "3425e9ddf4ba00273eab5cee815180f59cb74e4f4ecf0ae1dc88ace7d84627ac": {
-          "added": 1729575115000,
+          "added": 1731105933000,
           "file": {
             "name": "/wgtunnel_3.2.0.apk",
             "sha256": "3425e9ddf4ba00273eab5cee815180f59cb74e4f4ecf0ae1dc88ace7d84627ac",
