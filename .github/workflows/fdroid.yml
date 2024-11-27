@@ -26,6 +26,7 @@ jobs:
       - name: Install F-Droid server software
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
+         sudo add-apt-repository universe
          sudo apt-get update
          sudo apt install python3-oscrypto
          sudo apt-get install -f fdroidserver
