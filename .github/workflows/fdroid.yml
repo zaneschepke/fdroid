@@ -10,7 +10,7 @@ on:
 jobs:
   apps:
     name: "Generate repo from apps listing"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v2
@@ -26,9 +26,7 @@ jobs:
       - name: Install F-Droid server software
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
-         sudo add-apt-repository universe
          sudo apt-get update
-         sudo apt install python3-oscrypto
          sudo apt-get install -f fdroidserver
 
       - name: Set up repo secrets
