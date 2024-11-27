@@ -27,7 +27,7 @@ jobs:
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt-get update
-         sudo apt-get install fdroidserver
+         sudo apt-get install -f fdroidserver
 
       - name: Set up repo secrets
         run: |
