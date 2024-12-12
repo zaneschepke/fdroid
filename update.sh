@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source fdroidserver-env/bin/activate
+
 cd metascoop
 echo "::group::Building metascoop executable"
 go build -o metascoop
