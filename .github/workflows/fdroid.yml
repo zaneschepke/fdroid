@@ -31,8 +31,8 @@ jobs:
          # sudo apt-get install -f fdroidserver
 
       - uses: actions/setup-python@v4
-         with:
-           python-version: '3.x'
+        with:
+          python-version: '3.x'
 
       - name: Install requirements
         run: |
