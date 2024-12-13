@@ -47,4 +47,3 @@ jobs:
         run: bash update.sh 2>&1
         env:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
-          
