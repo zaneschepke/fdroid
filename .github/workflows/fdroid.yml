@@ -22,20 +22,19 @@ jobs:
         run: |
           sudo apt install git-restore-mtime 
           git restore-mtime
-      - name: Install F-Droid server software
-        run: |
-         sudo add-apt-repository ppa:fdroid/fdroidserver
-         sudo apt-get update
-         # sudo apt-get install fdroidserver
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           java-version: '17'
           distribution: 'temurin'
-
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+          
+      - name: Install F-Droid server software
+        run: |
+         sudo add-apt-repository ppa:fdroid/fdroidserver
+         sudo apt-get update
+         sudo apt install apksigner
+         # sudo apt-get install fdroidserver
           
       - name: Istall fdroidserver
         run: |
