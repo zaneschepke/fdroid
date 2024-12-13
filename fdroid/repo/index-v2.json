@@ -14,9 +14,52 @@
       }
     },
     "address": "https://raw.githubusercontent.com/zaneschepke/fdroid/main/fdroid/repo",
-    "timestamp": 1732076842000
+    "timestamp": 1734072681000,
+    "categories": {
+      "Connectivity": {
+        "name": {
+          "en-US": "Connectivity"
+        }
+      },
+      "Security": {
+        "name": {
+          "en-US": "Security"
+        }
+      },
+      "fdroid": {
+        "name": {
+          "en-US": "fdroid"
+        }
+      }
+    }
   },
   "packages": {
+    "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f": {
+      "metadata": {
+        "added": 1734072675000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1734072675000,
+        "name": {
+          "en-US": "categories"
+        }
+      },
+      "versions": {
+        "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f": {
+          "added": 1734072675000,
+          "file": {
+            "name": "/categories.txt",
+            "sha256": "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f",
+            "size": 22
+          },
+          "manifest": {
+            "versionName": "8b03c6e",
+            "versionCode": 0
+          }
+        }
+      }
+    },
     "com.zaneschepke.wireguardautotunnel": {
       "metadata": {
         "added": 1732076822000,
@@ -24,7 +67,7 @@
           "Connectivity",
           "Security"
         ],
-        "lastUpdated": 1732076836000,
+        "lastUpdated": 1734072675000,
         "license": "MIT",
         "sourceCode": "https://github.com/zaneschepke/wgtunnel",
         "featureGraphic": {
@@ -39,28 +82,28 @@
             "en-US": [
               {
                 "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/1.png",
-                "sha256": "d17528b0f0248213036dc3301adccfafaccad7bff4d2fe2e530997a1663123da",
-                "size": 141786
+                "sha256": "9ef1396a58448d32044c59c13c20ca09d1d8bb97f2c517cc1745544868b0c1bf",
+                "size": 141615
               },
               {
                 "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/2.png",
-                "sha256": "ad1174afd4b33dbc8fc160f07fb6305edf04a73d075e9e760474e0ab0ac2cf89",
-                "size": 78501
+                "sha256": "e002159619f28875982252c6d4bed596ecb86ae7f49de469f57185514c6d2f36",
+                "size": 78330
               },
               {
                 "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/3.png",
-                "sha256": "aee3c7a74148a25372ec33b545ebcd99c3cc8e293ccf2b59a4730657c98fa1ad",
-                "size": 129228
+                "sha256": "0c29a6a0090c05c7e05e3792d5c0d69c50723338746ae68b218ad3604b34c07f",
+                "size": 129057
               },
               {
                 "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/4.png",
-                "sha256": "7e8281cc3520d5e45a85ec33412580e70cb4c9e190f9e8723eeaedb09e6c4dbc",
-                "size": 122101
+                "sha256": "613397fcca2f47bfcd789837ed20429d9e222cd92c04b69d8433cbe36abde70f",
+                "size": 121930
               },
               {
                 "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/5.png",
-                "sha256": "93df439323d9220831b3a0d5e5567cc340056dcfa2b01f75656f0e4fc5e11ccc",
-                "size": 32513
+                "sha256": "3cc90af141433801bbd0b8ba82ac04ded3f51fb0c261236ed4f4ccd0db76002d",
+                "size": 32183
               }
             ]
           }
@@ -85,6 +128,255 @@
         "preferredSigner": "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
       },
       "versions": {
+        "c6e37a2d05d2ebff1a8930874f7288988f52f93efba853581668f2e6fcd11c5d": {
+          "added": 1734072675000,
+          "file": {
+            "name": "/wgtunnel_3.6.3.apk",
+            "sha256": "c6e37a2d05d2ebff1a8930874f7288988f52f93efba853581668f2e6fcd11c5d",
+            "size": 28620766
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.6.3",
+            "versionCode": 36300,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.zaneschepke.wireguardautotunnel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              }
+            ]
+          }
+        },
+        "060a32f3d9b2351087db027a7857992c5074811a792a90d9a5bfd7140f39c1c2": {
+          "added": 1734072675000,
+          "file": {
+            "name": "/wgtunnel_3.6.2.apk",
+            "sha256": "060a32f3d9b2351087db027a7857992c5074811a792a90d9a5bfd7140f39c1c2",
+            "size": 28620766
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.6.2",
+            "versionCode": 36200,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.zaneschepke.wireguardautotunnel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              }
+            ]
+          }
+        },
+        "0b37390e806bf2a047ded862ab561d372601d9aa9963ff1d159af0f1e1db782a": {
+          "added": 1734072674000,
+          "file": {
+            "name": "/wgtunnel_3.6.1.apk",
+            "sha256": "0b37390e806bf2a047ded862ab561d372601d9aa9963ff1d159af0f1e1db782a",
+            "size": 28609848
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.6.1",
+            "versionCode": 36100,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.zaneschepke.wireguardautotunnel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              }
+            ]
+          }
+        },
         "0b749be52a3522b91dd608fb1237bd0478b9f7c0f2cf0fdd2f1d43378089b6d6": {
           "added": 1732076836000,
           "file": {

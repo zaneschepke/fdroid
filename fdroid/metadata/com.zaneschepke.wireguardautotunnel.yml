@@ -2,8 +2,8 @@ AuthorName: zaneschepke
 Categories:
     - Connectivity
     - Security
-CurrentVersion: 3.6.0
-CurrentVersionCode: 36000
+CurrentVersion: 3.6.3
+CurrentVersionCode: 36300
 Description: |
     An alternative VPN client app for WireGuard with additional features
 

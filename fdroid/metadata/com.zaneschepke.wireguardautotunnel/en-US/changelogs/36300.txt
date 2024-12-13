@@ -1,0 +1,16 @@
+What's new:
+- Fixed kernel mode toggle bug
+- Fixed notification crash bug
+
+SHA256 fingerprint:
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
+
+### Changelog
+### :bug: Bug Fixes
+- [`d84d9df`](https://github.com/zaneschepke/wgtunnel/commit/d84d9df57d5eb030b5355bf1a9f453c29550b424) - notification channel creation bug *(commit by @zaneschepke)*
+- [`c657c62`](https://github.com/zaneschepke/wgtunnel/commit/c657c62640cf973ad074afdd00428ef582cca0b2) - shut down backend if we enter kernel mode *(commit by @zaneschepke)*
+- [`2877757`](https://github.com/zaneschepke/wgtunnel/commit/2877757396adf6093dcfc7f4852be61c4a9dd246) - kernel mode toggle bug *(commit by @zaneschepke)*
+
+### :wrench: Chores
+- [`88f9d43`](https://github.com/zaneschepke/wgtunnel/commit/88f9d43e51f3b40dc5dbb3bf8ec4205ac348e664) - add release notes *(commit by @zaneschepke)*
+
