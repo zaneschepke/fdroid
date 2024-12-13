@@ -22,33 +22,22 @@ jobs:
         run: |
           sudo apt install git-restore-mtime 
           git restore-mtime
-      - name: Set up JDK 17
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v2
-        with:
-          build-tools-version: '35.0.0'
-
       - name: Install F-Droid server software
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt-get update
-         # upstream issue
-         # sudo apt-get install -f fdroidserver
-
+         # sudo apt-get install fdroidserver
+          
       - name: Istall fdroidserver
         run: |
           pip install git+https://gitlab.com/fdroid/fdroidserver.git
           fdroid --version
-
+          
       - name: Set up repo secrets
         run: |
           echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
           echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
-
+          
       - uses: actions/setup-go@v2
         name: Set up Go
         with:
@@ -58,3 +47,4 @@ jobs:
         run: bash update.sh 2>&1
         env:
           GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+          
