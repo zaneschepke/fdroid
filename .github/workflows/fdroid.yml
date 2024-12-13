@@ -26,8 +26,16 @@ jobs:
         run: |
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt-get update
-         sudo apt-get install android-platform-tools-apksig
          # sudo apt-get install fdroidserver
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
           
       - name: Istall fdroidserver
         run: |
