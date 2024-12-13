@@ -39,25 +39,9 @@ jobs:
          # upstream issue
          # sudo apt-get install -f fdroidserver
 
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install requirements
+      - name: Istall fdroidserver
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install virtualenv
-          python -m pip install androguard
-
-      - name: Set up virtual environment and install fdroidserver
-        run: |
-          python -m venv fdroidserver-env
-          source fdroidserver-env/bin/activate
           pip install git+https://gitlab.com/fdroid/fdroidserver.git
-
-      - name: Verify fdroid installation
-        run: |
-          source fdroidserver-env/bin/activate
           fdroid --version
 
       - name: Set up repo secrets
