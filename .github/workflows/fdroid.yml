@@ -34,12 +34,12 @@ jobs:
          sudo add-apt-repository ppa:fdroid/fdroidserver
          sudo apt-get update
          sudo apt install apksigner
-         # sudo apt-get install fdroidserver
+         sudo apt-get install fdroidserver
           
-      - name: Istall fdroidserver
-        run: |
-          pip install git+https://gitlab.com/fdroid/fdroidserver.git
-          fdroid --version
+      # - name: Istall fdroidserver
+      #   run: |
+      #     pip install git+https://gitlab.com/fdroid/fdroidserver.git
+      #     fdroid --version
           
       - name: Set up repo secrets
         run: |
