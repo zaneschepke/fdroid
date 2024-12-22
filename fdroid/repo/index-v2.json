@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/zaneschepke/fdroid/main/fdroid/repo",
-    "timestamp": 1734853824000,
+    "timestamp": 1734905313000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -24,11 +24,6 @@
       "Security": {
         "name": {
           "en-US": "Security"
-        }
-      },
-      "fdroid": {
-        "name": {
-          "en-US": "fdroid"
         }
       }
     }
