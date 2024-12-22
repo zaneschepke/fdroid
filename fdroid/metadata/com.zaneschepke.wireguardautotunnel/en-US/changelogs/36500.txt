@@ -1,0 +1,31 @@
+What's new:
+- Auto tunnel reliability improvements
+- Split tunnel save fix and performance improvements
+- Kernel mode bug fix
+- Tile bug fix
+- Various other fixes and improvements
+
+SHA256 fingerprint:
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
+
+### Changelog
+### :bug: Bug Fixes
+- [`62daf13`](https://github.com/zaneschepke/wgtunnel/commit/62daf138dd98ef1e8e0122e04e97679dddc78700) - add action and tunnel name to kernel notification *(PR #490 by @zaneschepke)*
+  - :arrow_lower_right: *fixes issue #372 opened by @gabriel20xx*
+- [`b81f43c`](https://github.com/zaneschepke/wgtunnel/commit/b81f43c7cf33f575176acfbfee9daf405555eaa1) - getting the SSID via shell *(PR #494 by @markozajc)*
+- [`7285af5`](https://github.com/zaneschepke/wgtunnel/commit/7285af5c2de2f0da8b231b04039a7f8a38a64d78) - location services wifi toggle *(commit by @zaneschepke)*
+- [`94bd23f`](https://github.com/zaneschepke/wgtunnel/commit/94bd23f2a42197a6d3af10fc099c3b6793e5b31d) - bug starting app while no connectivity *(commit by @zaneschepke)*
+- [`40dd14c`](https://github.com/zaneschepke/wgtunnel/commit/40dd14ca16e0c5dc658350947b5160677284f8c1) - auto tunnel bug fixes *(commit by @zaneschepke)*
+- [`9f1af01`](https://github.com/zaneschepke/wgtunnel/commit/9f1af0140fb1214890b8620de68b80676acdf087) - app launch on notification click *(commit by @zaneschepke)*
+- [`0201523`](https://github.com/zaneschepke/wgtunnel/commit/0201523262c1db795083a629ddde47394ef0b721) - config screen performance *(PR #495 by @zaneschepke)*
+- [`7f89dca`](https://github.com/zaneschepke/wgtunnel/commit/7f89dcaab071010086ed880460da42464812623e) - minor ui improvements *(commit by @zaneschepke)*
+- [`a3eb53f`](https://github.com/zaneschepke/wgtunnel/commit/a3eb53f90fe1fb2ac8168274de6009f78cca68bc) - tile tunnel start *(commit by @zaneschepke)*
+- [`fe45a2f`](https://github.com/zaneschepke/wgtunnel/commit/fe45a2fad9fe620976cf02b74972ac034b0684c2) - minor ui improvements *(commit by @zaneschepke)*
+- [`25b986e`](https://github.com/zaneschepke/wgtunnel/commit/25b986ef2f1928b18688835a2f3a30b0509b0330) - improve location querying *(commit by @zaneschepke)*
+- [`7cf7817`](https://github.com/zaneschepke/wgtunnel/commit/7cf7817ceafc1a3f733fe533ec61b2b7244a9945) - switch to dynamic shortcuts *(commit by @zaneschepke)*
+- [`dbaf031`](https://github.com/zaneschepke/wgtunnel/commit/dbaf0312f893f86085e64d8d1107821e263273e2) - split tunnel performance improvements *(commit by @zaneschepke)*
+
+### :wrench: Chores
+- [`0da6e3e`](https://github.com/zaneschepke/wgtunnel/commit/0da6e3e82c6f5c34ceff804c81290938d66125bf) - bump deps *(commit by @zaneschepke)*
+- [`44353df`](https://github.com/zaneschepke/wgtunnel/commit/44353df400777b845cc40fc84fc44f7c61a775bf) - bump to 3.6.5 *(commit by @zaneschepke)*
+
