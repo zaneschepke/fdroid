@@ -176,7 +176,7 @@ func main() {
 	if !*debugMode {
 		fmt.Println("::group::F-Droid: Creating metadata stubs")
 		// Now, we run the fdroid update command
-		cmd := exec.Command("fdroid", "update", "--pretty", "--create-metadata", "--delete-unknown")
+		cmd := exec.Command("fdroid", "update", "--pretty", "--delete-unknown")
 		cmd.Stderr = os.Stderr
 		cmd.Stdout = os.Stdout
 		cmd.Stdin = os.Stdin
