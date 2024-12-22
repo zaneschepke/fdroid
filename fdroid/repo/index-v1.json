@@ -13,17 +13,6 @@
   },
   "apps": [
     {
-      "categories": [
-        "fdroid"
-      ],
-      "suggestedVersionCode": "2147483647",
-      "license": "Unknown",
-      "name": "categories",
-      "added": 1734072675000,
-      "packageName": "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f",
-      "lastUpdated": 1734072675000
-    },
-    {
       "authorName": "zaneschepke",
       "categories": [
         "Connectivity",
