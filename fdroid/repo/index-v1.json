@@ -45,17 +45,6 @@
     }
   ],
   "packages": {
-    "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f": [
-      {
-        "added": 1734072675000,
-        "apkName": "categories.txt",
-        "hash": "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f",
-        "hashType": "sha256",
-        "packageName": "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f",
-        "size": 22,
-        "versionName": "8b03c6e"
-      }
-    ],
     "com.zaneschepke.wireguardautotunnel": [
       {
         "added": 1734853819000,

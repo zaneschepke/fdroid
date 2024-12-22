@@ -34,32 +34,6 @@
     }
   },
   "packages": {
-    "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f": {
-      "metadata": {
-        "added": 1734072675000,
-        "categories": [
-          "fdroid"
-        ],
-        "lastUpdated": 1734072675000,
-        "name": {
-          "en-US": "categories"
-        }
-      },
-      "versions": {
-        "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f": {
-          "added": 1734072675000,
-          "file": {
-            "name": "/categories.txt",
-            "sha256": "8b03c6e8a444c18d1e09a63ad347220008d9d8e693f460a8adc618bfbcbe7a1f",
-            "size": 22
-          },
-          "manifest": {
-            "versionName": "8b03c6e",
-            "versionCode": 0
-          }
-        }
-      }
-    },
     "com.zaneschepke.wireguardautotunnel": {
       "metadata": {
         "added": 1732076822000,
