@@ -1,0 +1,57 @@
+What's new:
+- Ping feature now works independent of auto tunnel
+- Added convenience action for Amnezia compatibility
+- Added convenience action for excluding LAN from tunnel
+- Added debounce delay tuning option for auto tunnel
+- Many bug fixes and improvements
+
+SHA256 fingerprint:
+```5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80```
+
+### Changelog
+### :boom: BREAKING CHANGES
+- due to [`7b6bdec`](https://github.com/zaneschepke/wgtunnel/commit/7b6bdec133ef1299a4bf1c468718f022b484c849) - notification channel id should not be localized *(commit by @zaneschepke)*:
+
+  notification channel id should not be localized
+
+- due to [`f772dc0`](https://github.com/zaneschepke/wgtunnel/commit/f772dc0f8aa12e2b9c7cd099418b3cbb46da4a67) - move ping from auto tunnel to tunnel *(commit by @zaneschepke)*:
+
+  move ping from auto tunnel to tunnel
+
+
+### :sparkles: New Features
+- [`11e385d`](https://github.com/zaneschepke/wgtunnel/commit/11e385d3501392c38f1b1eefc5c1e13516519973) - toggle to set amnezia/wg compatibility values *(commit by @zaneschepke)*
+- [`02a8db0`](https://github.com/zaneschepke/wgtunnel/commit/02a8db0f9a5aadd6b6fd62493f3ff1a48bb39291) - add setting for debounce delay tuning *(commit by @zaneschepke)*
+- [`ab858ab`](https://github.com/zaneschepke/wgtunnel/commit/ab858ab59e4dc60a805a7bb5b47c35160ef51055) - config screen peer action to exclude private ips *(commit by @zaneschepke)*
+- [`67f5391`](https://github.com/zaneschepke/wgtunnel/commit/67f53915cc6b096461f036af87f18038b2d7806b) - **lang**: weblate localization changes *(PR #530 by @zaneschepke)*
+- [`f772dc0`](https://github.com/zaneschepke/wgtunnel/commit/f772dc0f8aa12e2b9c7cd099418b3cbb46da4a67) - move ping from auto tunnel to tunnel *(commit by @zaneschepke)*
+
+### :bug: Bug Fixes
+- [`83bec24`](https://github.com/zaneschepke/wgtunnel/commit/83bec24ca9b0206aa27b5fd885f746960d9a4fed) - reproducibility *(commit by @zaneschepke)*
+- [`6ece224`](https://github.com/zaneschepke/wgtunnel/commit/6ece2245929659d9d8f63837b2fe5ab32ab819e6) - translation bug *(commit by @zaneschepke)*
+- [`7b6bdec`](https://github.com/zaneschepke/wgtunnel/commit/7b6bdec133ef1299a4bf1c468718f022b484c849) - notification channel id should not be localized *(commit by @zaneschepke)*
+- [`ffcb4f6`](https://github.com/zaneschepke/wgtunnel/commit/ffcb4f6ed8ba4c58ac8643fefbfe3360d0ac7454) - weblate conflicts *(PR #519 by @zaneschepke)*
+- [`6a0b2b6`](https://github.com/zaneschepke/wgtunnel/commit/6a0b2b678fc72a10fc817099af310be9859932ef) - banner background color removed *(commit by @zaneschepke)*
+- [`7cbbf00`](https://github.com/zaneschepke/wgtunnel/commit/7cbbf00e52a68b2ddd28c1950c3809227d8b0a56) - search case sensitive *(commit by @zaneschepke)*
+- [`b2e266f`](https://github.com/zaneschepke/wgtunnel/commit/b2e266fc9fba8fdf54e40edfa1c9da0bd47d9e95) - toggle state bug *(commit by @zaneschepke)*
+- [`7a3627b`](https://github.com/zaneschepke/wgtunnel/commit/7a3627bf6ae3368d0a5eea1f562e0e7fbe9065d6) - remove unused shortcuts dep *(commit by @zaneschepke)*
+- [`4dc91b5`](https://github.com/zaneschepke/wgtunnel/commit/4dc91b5faec7db0d2d0dbe4da33ea3fbbbd19472) - create tunnel from scratch bug *(commit by @zaneschepke)*
+- [`c8ac40d`](https://github.com/zaneschepke/wgtunnel/commit/c8ac40d37057cc4408652760bf59ea9a2306c7fa) - improve tile sync *(commit by @zaneschepke)*
+- [`8ffe145`](https://github.com/zaneschepke/wgtunnel/commit/8ffe145ade6f5a1b5d15fcbdf2dd8306c8728043) - android 9 crash bug *(commit by @zaneschepke)*
+- [`4196a54`](https://github.com/zaneschepke/wgtunnel/commit/4196a543b2ad07df5ea4488162a9c0c0adc921ce) - location disclosure screen navigation bug *(commit by @zaneschepke)*
+- [`2c04b9d`](https://github.com/zaneschepke/wgtunnel/commit/2c04b9d69cc727d6dde2ca78ed512313199af6ed) - active tunnel bug *(commit by @zaneschepke)*
+- [`ba064b2`](https://github.com/zaneschepke/wgtunnel/commit/ba064b267f3dbb5a6ead7d073ee6207e0f37a654) - try to query ssid if we don't have a valid one yet *(commit by @zaneschepke)*
+- [`53c0926`](https://github.com/zaneschepke/wgtunnel/commit/53c09267df4cb44556d5a61df829767299bb10b0) - ethernet monitoring and auto tunnel override *(commit by @zaneschepke)*
+- [`b1dc6c5`](https://github.com/zaneschepke/wgtunnel/commit/b1dc6c5d59abfdb676af4d581a986ce809394b40) - make ping aware of network availability *(commit by @zaneschepke)*
+- [`a5898d4`](https://github.com/zaneschepke/wgtunnel/commit/a5898d4ad1f3c13ff2e41bed8d87946d80979210) - make sure ping shuts down *(commit by @zaneschepke)*
+
+### :recycle: Refactors
+- [`85319ba`](https://github.com/zaneschepke/wgtunnel/commit/85319ba87476600d8dd5ad22b83b1308d5314d07) - navigation *(commit by @zaneschepke)*
+
+### :wrench: Chores
+- [`1ab611a`](https://github.com/zaneschepke/wgtunnel/commit/1ab611aa7f35b87a25526f6d534c9c55cde1a1f8) - cleanup unused strings *(commit by @zaneschepke)*
+- [`dca8b50`](https://github.com/zaneschepke/wgtunnel/commit/dca8b50083cdf17def456cf66b6b50c2e4c61a67) - crowdin yaml fix *(commit by @zaneschepke)*
+- [`b7ec9e2`](https://github.com/zaneschepke/wgtunnel/commit/b7ec9e269681c820d247f8f6f3e2d3bf098f1e3c) - fix language mapping *(commit by @zaneschepke)*
+- [`6fdf80e`](https://github.com/zaneschepke/wgtunnel/commit/6fdf80e84dd01582084f320c283261e71029c6e1) - remove crowdin *(commit by @zaneschepke)*
+- [`7cbe331`](https://github.com/zaneschepke/wgtunnel/commit/7cbe3311c943bea7eeae1bfc126615a52893411d) - bump version *(commit by @zaneschepke)*
+

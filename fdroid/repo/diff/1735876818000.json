@@ -1,0 +1,55 @@
+{
+  "repo": {
+    "timestamp": 1735876824000
+  },
+  "packages": {
+    "com.zaneschepke.wireguardautotunnel": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/1.png",
+                "sha256": "1afaf1cfb69ac5a3a6d6060c07bcad1abc8a19147ad6c77fb4b0b579f8adc577",
+                "size": 138357
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/2.png",
+                "sha256": "bafdca1316b517c3dda7e99371e7d40c54a26cee885371942a987e9ce8b3ccc8",
+                "size": 132522
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/3.png",
+                "sha256": "7f5db32a6f731f7913f92cb0fa8c5f6f9b86b83cfd942afc97abc772c99a05a2",
+                "size": 72572
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/4.png",
+                "sha256": "dd99a5686d51aafbf1c0fb8b0b1056d51705f6281e1511b8f235909391310398",
+                "size": 131372
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/5.png",
+                "sha256": "23e56b2ca7fad866cedcf40fcff494f82ae8518cb7cc5d26b006b0bd9c951095",
+                "size": 108920
+              },
+              {
+                "name": "/com.zaneschepke.wireguardautotunnel/en-US/phoneScreenshots/6.png",
+                "sha256": "3cc90af141433801bbd0b8ba82ac04ded3f51fb0c261236ed4f4ccd0db76002d",
+                "size": 32183
+              }
+            ]
+          }
+        },
+        "summary": {
+          "en-US": "An alternative Android client app for WireGuard® and AmneziaWG"
+        }
+      },
+      "versions": {
+        "de063a459ca5e8f5e2e16fadfa359df537f3cb1f02cd219d8dcb6f1e9b9524a6": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
