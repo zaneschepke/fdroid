@@ -1,0 +1,61 @@
+What's new:
+- Multiple tunnel support for kernel mode
+- Override for WG default DNS Ipv4 preference
+- Stop kill switch on trusted support
+- Limit location querying by auto tunnel
+- Various bug fixes and improvements
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
+
+### Changelog
+### :sparkles: New Features
+- [`932d27e`](https://github.com/zaneschepke/wgtunnel/commit/932d27edd754597c98afee958bb37f27c8866774) - localizations *(PR #540 by @zaneschepke)*
+- [`a5229c6`](https://github.com/zaneschepke/wgtunnel/commit/a5229c62b10999d50b852ba3e3a178ac83f642f6) - Translations update from Hosted Weblate *(PR #542 by @weblate)*
+- [`f3debcf`](https://github.com/zaneschepke/wgtunnel/commit/f3debcfe45b60b3f04ba41f71596d738a4603929) - disable kill switch on trusted *(commit by @zaneschepke)*
+- [`ae665d3`](https://github.com/zaneschepke/wgtunnel/commit/ae665d3e619a00559c06737d2e12ef8c33912e1b) - multi tunnel support *(PR #566 by @zaneschepke)*
+- [`1375a46`](https://github.com/zaneschepke/wgtunnel/commit/1375a468fdde414cd5fd53ce1295dea6c04df1b7) - add export as amnezia or wg *(commit by @zaneschepke)*
+- [`13bb300`](https://github.com/zaneschepke/wgtunnel/commit/13bb300f20decdb5ce866f1188ab3f7c5a9d8472) - add worker to restart killed services *(commit by @zaneschepke)*
+- [`94197c9`](https://github.com/zaneschepke/wgtunnel/commit/94197c9943ec55e8c93c840200a3c6ad26f8818b) - Update Turkish Translation *(PR #605 by @mikropsoft)*
+
+### :bug: Bug Fixes
+- [`0dcee67`](https://github.com/zaneschepke/wgtunnel/commit/0dcee673e14ac6f6d8382be911bd00c182184e50) - back gesture *(commit by @zaneschepke)*
+- [`d89870e`](https://github.com/zaneschepke/wgtunnel/commit/d89870e6de065cbaef2372a6018288a3a36dc377) - tile titles not localized *(commit by @zaneschepke)*
+- [`02dea1e`](https://github.com/zaneschepke/wgtunnel/commit/02dea1e6b03f9f35d1d16c414d70c9f32904dd19) - include all ipv6 with exclusion of private ipv4 addresses *(commit by @zaneschepke)*
+- [`ff97c65`](https://github.com/zaneschepke/wgtunnel/commit/ff97c65d4ffbf1e38029af4f27d9a49348243f89) - preshared key should be hidden *(commit by @zaneschepke)*
+- [`1b9560b`](https://github.com/zaneschepke/wgtunnel/commit/1b9560b601b16c576a4295bfa5fb40167b5b504d) - light mode text bugs *(commit by @zaneschepke)*
+- [`f52efd9`](https://github.com/zaneschepke/wgtunnel/commit/f52efd92fff0df6b437f2fb16ad0594f1f55d378) - tunnel tile state *(commit by @zaneschepke)*
+- [`3f912ed`](https://github.com/zaneschepke/wgtunnel/commit/3f912ed532526b994224ccb9e3aa987ce170c1c0) - tunnel change restart logic *(commit by @zaneschepke)*
+- [`f80af9d`](https://github.com/zaneschepke/wgtunnel/commit/f80af9dd5e309b76ac125a8ddf459bdde1f07cbf) - tunnel state bug *(commit by @zaneschepke)*
+- [`8021c13`](https://github.com/zaneschepke/wgtunnel/commit/8021c133a567bb6d4172489dabb12a5e714985bd) - proguard *(commit by @zaneschepke)*
+- [`e1e7e27`](https://github.com/zaneschepke/wgtunnel/commit/e1e7e27bb568c39e6c7e1790972465ca5943e25a) - proguard *(PR #590 by @zaneschepke)*
+- [`2534b86`](https://github.com/zaneschepke/wgtunnel/commit/2534b860056fc098f0bb9074d0b6c185c44b124b) - add back rules *(commit by @zaneschepke)*
+- [`a39feee`](https://github.com/zaneschepke/wgtunnel/commit/a39feeeea65009adc98c31a12c979ef77e733750) - proguard rules *(commit by @zaneschepke)*
+- [`06de1f2`](https://github.com/zaneschepke/wgtunnel/commit/06de1f24c2a4f819cbffd500e07b847214ce50cc) - tunnel race condition *(commit by @zaneschepke)*
+- [`68b41c8`](https://github.com/zaneschepke/wgtunnel/commit/68b41c8925dafc6fd7c9568027e38cfcf9e18fa9) - startup/nav bugs *(commit by @zaneschepke)*
+- [`3ea4aea`](https://github.com/zaneschepke/wgtunnel/commit/3ea4aea5cfe9db47b9030508c460528dae4f93bf) - improve network status monitoring *(commit by @zaneschepke)*
+- [`93d6f8a`](https://github.com/zaneschepke/wgtunnel/commit/93d6f8aa45987ed5d5aa5c8c28f5643244c8ce2c) - module flavors *(commit by @zaneschepke)*
+- [`b014730`](https://github.com/zaneschepke/wgtunnel/commit/b01473073f19e46e49f9938a7addbac70fe7d0aa) - add restart support htc quickboot *(commit by @zaneschepke)*
+- [`e220b26`](https://github.com/zaneschepke/wgtunnel/commit/e220b26d88f2ad99c9478df7e4c8358a9e735d08) - temporarily disallow start/stop of pinger while tunnel running *(commit by @zaneschepke)*
+- [`8860b45`](https://github.com/zaneschepke/wgtunnel/commit/8860b45230eef4590b735344a30d6d036c6e12ce) - service manager bug *(commit by @zaneschepke)*
+- [`39fc901`](https://github.com/zaneschepke/wgtunnel/commit/39fc9014d8a84fb1c8bb94ccddc67e4754bd9435) - bump deps for dns fix *(commit by @zaneschepke)*
+- [`8f2fd93`](https://github.com/zaneschepke/wgtunnel/commit/8f2fd93e77ac423ccba163ae7072991a4faf8cd8) - improve local logging *(commit by @zaneschepke)*
+
+### :recycle: Refactors
+- [`548362c`](https://github.com/zaneschepke/wgtunnel/commit/548362cdde557b063df79b198ac6ecf424868c0d) - minor refactor of tunnel options *(commit by @zaneschepke)*
+- [`0025487`](https://github.com/zaneschepke/wgtunnel/commit/00254874f09fb41f2551444caca0a62db945858d) - connectivity monitoring *(PR #553 by @zaneschepke)*
+- [`dc3f7fa`](https://github.com/zaneschepke/wgtunnel/commit/dc3f7fa73692cd7f5f802cc468ca4ef43caa8cb8) - improve service manager *(commit by @zaneschepke)*
+- [`3ae9a24`](https://github.com/zaneschepke/wgtunnel/commit/3ae9a24ca4126206b6432b0bae482b0d3c5903a3) - restore on restart/update *(commit by @zaneschepke)*
+- [`2302b47`](https://github.com/zaneschepke/wgtunnel/commit/2302b473b42f3f975eecb4297ddd20936ec366e6) - tunnel toggling *(commit by @zaneschepke)*
+
+### :wrench: Chores
+- [`3e6a298`](https://github.com/zaneschepke/wgtunnel/commit/3e6a2981cb6e0bdc4ee329cb2f00544a852985df) - bump deps *(commit by @zaneschepke)*
+- [`01e1509`](https://github.com/zaneschepke/wgtunnel/commit/01e15099ca5d4a4fc88a1117b778160943b386f2) - bump version with notes *(commit by @zaneschepke)*
+
