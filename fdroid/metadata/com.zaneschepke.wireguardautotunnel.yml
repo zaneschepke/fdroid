@@ -20,7 +20,7 @@ Description: |
     - Intent automation support for all tunnels
     - Automatic service restart after reboot
     - Battery preservation measures
-IssueTracker: "https://github.com/zaneschepke/wgtunnel/issues"
+IssueTracker: https://github.com/zaneschepke/wgtunnel/issues
 License: MIT
 Name: WG Tunnel
 SourceCode: https://github.com/zaneschepke/wgtunnel

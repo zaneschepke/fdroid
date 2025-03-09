@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/zaneschepke/fdroid/main/fdroid/repo",
-    "timestamp": 1741491487000,
+    "timestamp": 1741491762000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -36,6 +36,7 @@
           "Connectivity",
           "Security"
         ],
+        "issueTracker": "https://github.com/zaneschepke/wgtunnel/issues",
         "lastUpdated": 1741491481000,
         "license": "MIT",
         "sourceCode": "https://github.com/zaneschepke/wgtunnel",

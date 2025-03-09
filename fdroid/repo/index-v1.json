@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1741491487000,
+    "timestamp": 1741491762000,
     "version": 20002,
     "name": "Apps by Zane Schepke",
     "icon": "icon.png",
@@ -21,6 +21,7 @@
       "suggestedVersionName": "3.7.0",
       "suggestedVersionCode": "37000",
       "description": "An alternative VPN client app for WireGuard with additional features\n\n<b>Features</b>\n\n- Add tunnels via .conf file, zip, manual entry, or QR code\n- Auto connect to VPN based on Wi-Fi SSID, ethernet, or mobile data\n- Split tunneling by application with search\n- WireGuard support for kernel and userspace modes\n- Always-On VPN support\n- Export tunnels to zip\n- Quick tile support for VPN toggling\n- Static shortcuts support for primary tunnel for automation integration\n- Intent automation support for all tunnels\n- Automatic service restart after reboot\n- Battery preservation measures\n",
+      "issueTracker": "https://github.com/zaneschepke/wgtunnel/issues",
       "license": "MIT",
       "name": "WG Tunnel",
       "sourceCode": "https://github.com/zaneschepke/wgtunnel",
