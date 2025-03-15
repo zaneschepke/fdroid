@@ -1,0 +1,32 @@
+What's new:
+- Static IPv6 peer endpoint bug fix
+- Dynamic shortcuts bug fix
+- Localizations
+- Add peer bug fix
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
+
+### Changelog
+### :sparkles: New Features
+- [`a71f8f8`](https://github.com/zaneschepke/wgtunnel/commit/a71f8f86b15d3cc4acaf6154adbd940c0dd984fa) - Translations update from Hosted Weblate *(PR #556 by @weblate)*
+
+### :bug: Bug Fixes
+- [`34b20bd`](https://github.com/zaneschepke/wgtunnel/commit/34b20bd7f7832a1e40127e0888ac4b1b7908b318) - pt region localization *(commit by @zaneschepke)*
+- [`007c9f4`](https://github.com/zaneschepke/wgtunnel/commit/007c9f4c5dbb236270c6252007f189f35462aeb2) - static ipv6 endpoint bug *(commit by @zaneschepke)*
+- [`6031d85`](https://github.com/zaneschepke/wgtunnel/commit/6031d85edd56143cf4bdfdb679c695f7423c06bc) - re-enable shortcuts *(commit by @zaneschepke)*
+- [`dcd15f7`](https://github.com/zaneschepke/wgtunnel/commit/dcd15f7bd834190eb3a025a8e40a2f68f44a3321) - adding new peer bug *(commit by @zaneschepke)*
+- [`97ede3d`](https://github.com/zaneschepke/wgtunnel/commit/97ede3d5b432481248e4e7e580217a1fec3b416f) - set prefer ipv4 as default to mimic old wg behavior *(commit by @zaneschepke)*
+
+### :wrench: Chores
+- [`6670a62`](https://github.com/zaneschepke/wgtunnel/commit/6670a62e2f696edbd8f18ed63feab288d27a603a) - fix fastlane *(commit by @zaneschepke)*
+- [`e32a99d`](https://github.com/zaneschepke/wgtunnel/commit/e32a99db77c6e1d1e8bf2e4c2f306d9a1a3e8e02) - fix fi *(commit by @zaneschepke)*
+- [`53ff3bb`](https://github.com/zaneschepke/wgtunnel/commit/53ff3bb1e581d9f11dea14a0067d2b637e17cd4c) - bump version with notes *(commit by @zaneschepke)*
+
