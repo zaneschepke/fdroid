@@ -1,0 +1,27 @@
+What's new:
+- Auto tunnel regression fix
+- Tile sync improvements
+- Optimize wifi name querying
+- Improve network monitoring permission checks
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
+
+### Changelog
+### :bug: Bug Fixes
+- [`fa517b2`](https://github.com/zaneschepke/wgtunnel/commit/fa517b212413bbdd4700f7be74e3a9dd3db8206e) - race conditions *(PR #621 by @zaneschepke)*
+- [`c98fa04`](https://github.com/zaneschepke/wgtunnel/commit/c98fa04f731de0dd146dc7b156e24d80d5a42d09) - auto tunnel and tunnel regressions *(commit by @zaneschepke)*
+- [`53c1976`](https://github.com/zaneschepke/wgtunnel/commit/53c19762ef21068f62f0c16c4306e29a8ed0772e) - attempt to improve tile sync *(commit by @zaneschepke)*
+- [`7f0fea3`](https://github.com/zaneschepke/wgtunnel/commit/7f0fea3766a4d807bfa0b7801fd6a1ffc88ec7b1) - improve wifi monitoring to better handle permission changes *(commit by @zaneschepke)*
+
+### :wrench: Chores
+- [`aba0f7d`](https://github.com/zaneschepke/wgtunnel/commit/aba0f7d4d3d7cf57c94e96b845ffc5e49a66985d) - bump deps *(commit by @zaneschepke)*
+- [`c71c4e5`](https://github.com/zaneschepke/wgtunnel/commit/c71c4e5b290180cb1589e98121fa6cb6c322a5c2) - bump version and notes *(commit by @zaneschepke)*
+
