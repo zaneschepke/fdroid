@@ -1,0 +1,49 @@
+What's new:
+- UI update
+- Add tunnel via URL
+- VPN kill switch bug fixes
+- Tunnel service crash fixes
+- Ping and config change restart fixes
+- Network information in UI
+- Various other fixes and improvements
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
+
+### Changelog
+### :sparkles: New Features
+- [`ff2a2cc`](https://github.com/zaneschepke/wgtunnel/commit/ff2a2cc08217d59df17d01563525d6fe1cf258d0) - Add option to add config via URL *(PR #623 by @hvolkmer)*
+  - :arrow_lower_right: *addresses issue #601 opened by @figarospares*
+- [`212c6cf`](https://github.com/zaneschepke/wgtunnel/commit/212c6cf088ae576a421744e5a429f5be966a869d) - add screen security to config screen *(commit by @zaneschepke)*
+
+### :bug: Bug Fixes
+- [`a873546`](https://github.com/zaneschepke/wgtunnel/commit/a873546e9e75b2e6d91f6bd71b6d480fa17697ce) - bugs in config changes and ping tunnel jobs *(PR #650 by @zaneschepke)*
+- [`6f5bb24`](https://github.com/zaneschepke/wgtunnel/commit/6f5bb24cfa6c90826378d7538e21c5958735ba4c) - dns64 and ip version detection improvements *(commit by @zaneschepke)*
+- [`cd623c0`](https://github.com/zaneschepke/wgtunnel/commit/cd623c0c0cd58929a58169c56a4bde448f231afd) - ui bug *(commit by @zaneschepke)*
+- [`14a71e3`](https://github.com/zaneschepke/wgtunnel/commit/14a71e3118a71a837f9ee65204ef815a02db4015) - stop kill switch on trusted auto tunnel bug *(commit by @zaneschepke)*
+- [`bda1a20`](https://github.com/zaneschepke/wgtunnel/commit/bda1a2080aee162c74fbe36c172ad90163012241) - tunnel tile default to previously active tunnel *(commit by @zaneschepke)*
+- [`1c0d968`](https://github.com/zaneschepke/wgtunnel/commit/1c0d968cfbe602bf017d429d535290d94dc3582d) - auto tunnel tile state bug *(commit by @zaneschepke)*
+- [`ecf5036`](https://github.com/zaneschepke/wgtunnel/commit/ecf5036f56de17f9270dde1b00d8b3302a833f50) - nav backstack bug *(commit by @zaneschepke)*
+- [`76191c4`](https://github.com/zaneschepke/wgtunnel/commit/76191c46f345631b7c255e0e3cd183a88f17bdb0) - pop backstack on config save *(commit by @zaneschepke)*
+- [`b4c5b51`](https://github.com/zaneschepke/wgtunnel/commit/b4c5b5164488223cadacfb6bb11e31590c98721b) - tunnel service handling of multiple tunnels and tunnel job restarts *(commit by @zaneschepke)*
+
+### :recycle: Refactors
+- [`47f8de8`](https://github.com/zaneschepke/wgtunnel/commit/47f8de8c57a9da6c31812b1259e5ad671988559a) - support screen, add matrix link *(commit by @zaneschepke)*
+- [`36c7656`](https://github.com/zaneschepke/wgtunnel/commit/36c76565f7e2d776ce9c5d13c3080f9398c34081) - optimize log toggle *(commit by @zaneschepke)*
+- [`e637332`](https://github.com/zaneschepke/wgtunnel/commit/e63733286c349a4fdf751f1f35998fbf1552c7f8) - advanced screen *(commit by @zaneschepke)*
+- [`ca47127`](https://github.com/zaneschepke/wgtunnel/commit/ca47127bff4527e48cf6e349160f7a50a6fd1563) - state management *(PR #656 by @zaneschepke)*
+- [`5739129`](https://github.com/zaneschepke/wgtunnel/commit/57391290c5dcc33472fb346c36eee0a57e16f44f) - major ui refactor and bug fixes *(PR #660 by @zaneschepke)*
+
+### :wrench: Chores
+- [`ec244ee`](https://github.com/zaneschepke/wgtunnel/commit/ec244eeda31923c1fb6087058280095b7c569a8b) - bump deps *(commit by @zaneschepke)*
+- [`5f791ff`](https://github.com/zaneschepke/wgtunnel/commit/5f791ffda1c981d2ea2ba2976a9f6af74b0f3910) - bump ksp *(commit by @zaneschepke)*
+- [`5740012`](https://github.com/zaneschepke/wgtunnel/commit/5740012101041eaacb8118641bc60bb4ef99dfec) - fmt and bump hilt *(commit by @zaneschepke)*
+- [`9e0e177`](https://github.com/zaneschepke/wgtunnel/commit/9e0e17787d8f7482525adae5c1f6234d02779bf8) - bump version, update screenshots *(commit by @zaneschepke)*
+
