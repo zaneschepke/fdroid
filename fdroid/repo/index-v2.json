@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/zaneschepke/fdroid/main/fdroid/repo",
-    "timestamp": 1744162024000,
+    "timestamp": 1744162649000,
     "categories": {
       "Connectivity": {
         "name": {
@@ -37,7 +37,7 @@
           "Security"
         ],
         "issueTracker": "https://github.com/zaneschepke/wgtunnel/issues",
-        "lastUpdated": 1744162017000,
+        "lastUpdated": 1743922362000,
         "license": "MIT",
         "sourceCode": "https://github.com/zaneschepke/wgtunnel",
         "featureGraphic": {
@@ -3673,86 +3673,6 @@
               },
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.zaneschepke.wireguardautotunnel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              }
-            ]
-          }
-        },
-        "c1ee3580ba30f180c5250a6cf3a2e03d371ac53efce6cafd29f69bb3dac6ad00": {
-          "added": 1744162017000,
-          "file": {
-            "name": "/wgtunnel_3.8.1.apk",
-            "sha256": "c1ee3580ba30f180c5250a6cf3a2e03d371ac53efce6cafd29f69bb3dac6ad00",
-            "size": 39753080
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "3.8.1",
-            "versionCode": 38100,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "e07a67da9a78a91e7056418a07ef8167b74f3b755aa551930e489d4646cb1742"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"
-              },
-              {
-                "name": "android.permission.SCHEDULE_EXACT_ALARM"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_BACKGROUND_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
               },
               {
                 "name": "android.permission.USE_BIOMETRIC"
