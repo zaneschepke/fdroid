@@ -7,7 +7,7 @@ What's new:
 
 SHA-256 fingerprint for the 4096-bit signing certificate:
 ```sh
-e07a67da9a78a91e7056418a07ef8167b74f3b755aa551930e489d4646cb1742
+5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80
 ```
 
 To verify fingerprint:
@@ -27,6 +27,7 @@ apksigner verify --print-certs [path to APK file] | grep SHA-256
 - [`75364f3`](https://github.com/zaneschepke/wgtunnel/commit/75364f323c20a649404ab8ebd3bb37e98557eb28) - tv navigation bug *(commit by @zaneschepke)*
 - [`84de3a3`](https://github.com/zaneschepke/wgtunnel/commit/84de3a3991b20e9b188dd50459cce47f0006ae2a) - default to phone preferred dns server *(commit by @zaneschepke)*
 - [`53480b0`](https://github.com/zaneschepke/wgtunnel/commit/53480b0233d14a762f1fd61341bf1a823d0870b3) - back gesture issues on some devices *(commit by @zaneschepke)*
+- [`dcf213b`](https://github.com/zaneschepke/wgtunnel/commit/dcf213b63cc2f6f51a56fd761a9bb094118bc736) - signing *(commit by @zaneschepke)*
 
 ### :wrench: Chores
 - [`ca10586`](https://github.com/zaneschepke/wgtunnel/commit/ca105866047ec7d5bd770a08fcb2cf5847be4c54) - bump version with notes *(commit by @zaneschepke)*
