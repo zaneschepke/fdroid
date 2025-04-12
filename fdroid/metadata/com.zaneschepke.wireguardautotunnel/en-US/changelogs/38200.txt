@@ -1,0 +1,40 @@
+What's new:
+- New app icon and minor UI improvements
+- Fix for local logger toggle bug
+- Fix for AndroidTV restart on reboot
+- Fix for AndroidTV language selection
+- Fix for ping feature running by default
+- Fix for kernel mode shutdown bug
+- Fix for kill switch auto tunneling bug
+
+SHA-256 fingerprint for the 4096-bit signing certificate:
+```sh
+5204d82e766e8aa14dcbb06dc70aebae2bdd812d4d6203cd521a8a685d7d3d80
+```
+
+To verify fingerprint:
+```sh
+apksigner verify --print-certs [path to APK file] | grep SHA-256
+```
+
+### Changelog
+### :sparkles: New Features
+- [`cc5a2a9`](https://github.com/zaneschepke/wgtunnel/commit/cc5a2a972b289f6c8c6729ab625d2c6af6bcd5f5) - **lang**: weblate changes *(PR #670 by @zaneschepke)*
+- [`7e9687a`](https://github.com/zaneschepke/wgtunnel/commit/7e9687aeb9222c670ef327994e5fbb4516c9b4a6) - **lang**: Translations update from Hosted Weblate *(PR #671 by @weblate)*
+
+### :bug: Bug Fixes
+- [`ce3f0b8`](https://github.com/zaneschepke/wgtunnel/commit/ce3f0b85c16c21c04dc5f0a8fc5fac301101c3f1) - toggle resolution issue *(commit by @zaneschepke)*
+- [`5ded556`](https://github.com/zaneschepke/wgtunnel/commit/5ded556647bb024332a537cfa74e7f77f42850a2) - ping job start by default *(commit by @zaneschepke)*
+- [`77b83ea`](https://github.com/zaneschepke/wgtunnel/commit/77b83ea569cdd957b23a53061c2c4f4432722ec0) - AndroidTV language selection ui bug *(commit by @zaneschepke)*
+- [`fdfc348`](https://github.com/zaneschepke/wgtunnel/commit/fdfc348e76b17bb2c4b905b0602b7890f7446f11) - kill switch launch on start *(commit by @zaneschepke)*
+- [`a6e559e`](https://github.com/zaneschepke/wgtunnel/commit/a6e559ececd1fdb5e36585594a349a878546e8ee) - logger toggle bug *(commit by @zaneschepke)*
+
+### :wrench: Chores
+- [`f9768fc`](https://github.com/zaneschepke/wgtunnel/commit/f9768fc9f03ae5a076d3309ad2be318e453ce306) - update license *(commit by @zaneschepke)*
+- [`3291bb0`](https://github.com/zaneschepke/wgtunnel/commit/3291bb0718bc9edbd662be143767c187b7aa4639) - **deps**: bump roomVersion from 2.6.1 to 2.7.0 *(PR #681 by @dependabot[bot])*
+- [`7cb91ec`](https://github.com/zaneschepke/wgtunnel/commit/7cb91ecd941f65a32d889771fdf119f04b94b67a) - **deps**: bump androidx.compose.material3:material3 from 1.3.1 to 1.3.2 *(PR #682 by @dependabot[bot])*
+- [`352eae0`](https://github.com/zaneschepke/wgtunnel/commit/352eae0b28964aa771b76e928a16ef9b806e66c1) - **deps**: bump actions/checkout from 3 to 4 *(PR #675 by @dependabot[bot])*
+- [`869e1eb`](https://github.com/zaneschepke/wgtunnel/commit/869e1ebf0dfa65af27a71f08bd20fa442ca27691) - **deps**: bump com.google.devtools.ksp from 2.1.20-1.0.32 to 2.1.20-2.0.0 *(PR #677 by @dependabot[bot])*
+- [`b62e592`](https://github.com/zaneschepke/wgtunnel/commit/b62e592ee921cbe80f8f2aa4ed27fa3777c3ecd9) - bump deps *(commit by @zaneschepke)*
+- [`4d64d05`](https://github.com/zaneschepke/wgtunnel/commit/4d64d058dec8f2459a4ee4904f41e91936af4078) - bump version with notes *(commit by @zaneschepke)*
+
