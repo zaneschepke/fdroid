@@ -43,8 +43,8 @@ jobs:
           
       - name: Set up repo secrets
         run: |
-          echo "${{ secrets.KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
-          echo "${{ secrets.CONFIG_YML }}" | base64 -d - > fdroid/config.yml
+          echo "${{ secrets.FDROID_KEYSTORE_P12 }}" | base64 -d - > fdroid/keystore.p12
+          echo "${{ secrets.FDROID_CONFIG_YML }}" | base64 -d - > fdroid/config.yml
           
       - uses: actions/setup-go@v2
         name: Set up Go
@@ -54,4 +54,4 @@ jobs:
       - name: Run update script
         run: bash update.sh 2>&1
         env:
-          GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+          GH_ACCESS_TOKEN: ${{ secrets.PAT }}

@@ -1,5 +1,5 @@
 wgtunnel:
-  git: https://github.com/zaneschepke/wgtunnel
+  git: https://github.com/wgtunnel/wgtunnel
   name: "WG Tunnel"
   description: |
     An alternative VPN client app for WireGuard with additional features
